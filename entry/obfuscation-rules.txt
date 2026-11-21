@@ -3,7 +3,7 @@
 #
 # For more details, see
 #   https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/source-obfuscation
-#
+
 # Obfuscation options:
 # -disable-obfuscation: disable all obfuscations
 # -enable-property-obfuscation: obfuscate the property names

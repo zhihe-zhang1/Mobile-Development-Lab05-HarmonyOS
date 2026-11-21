@@ -4,7 +4,9 @@
       "name": "ProductDetail",
       "pageSourceFile": "src/main/ets/pages/ProductDetail.ets",
       "buildFunction": "ProductDetailBuilder",
-      "data": { "description": "商品详情" }
+      "data": {
+        "description": "商品详情"
+      }
     }
   ]
 }

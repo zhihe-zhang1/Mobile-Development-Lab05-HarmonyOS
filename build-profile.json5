@@ -17,8 +17,12 @@
       }
     ],
     "buildModeSet": [
-      { "name": "debug" },
-      { "name": "release" }
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
     ]
   },
   "modules": [
@@ -26,7 +30,12 @@
       "name": "entry",
       "srcPath": "./entry",
       "targets": [
-        { "name": "default", "applyToProducts": [ "default" ] }
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
       ]
     }
   ]

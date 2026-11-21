@@ -1,10 +1,20 @@
 {
-  "files": ["**/*.ets"],
-  "ignore": [
-    "**/src/ohosTest/**/*", "**/src/test/**/*", "**/src/mock/**/*",
-    "**/node_modules/**/*", "**/oh_modules/**/*", "**/build/**/*", "**/.preview/**/*"
+  "files": [
+    "**/*.ets"
   ],
-  "ruleSet": ["plugin:@performance/recommended", "plugin:@typescript-eslint/recommended"],
+  "ignore": [
+    "**/src/ohosTest/**/*",
+    "**/src/test/**/*",
+    "**/src/mock/**/*",
+    "**/node_modules/**/*",
+    "**/oh_modules/**/*",
+    "**/build/**/*",
+    "**/.preview/**/*"
+  ],
+  "ruleSet": [
+    "plugin:@performance/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
   "rules": {
     "@security/no-unsafe-aes": "error",
     "@security/no-unsafe-hash": "error",
